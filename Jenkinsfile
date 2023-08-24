@@ -20,14 +20,14 @@ pipeline
                 ])
             }
         }
-        stage('maven build')
+        /*stage('maven build')
         {
             steps
             {
                 sh 'mvn clean test'
             }
-        }
-        /*stage('sonar-scanner')
+        }*/
+        stage('sonar-scanner')
         {
             steps
             {
@@ -36,6 +36,6 @@ pipeline
                     sh 'mvn clean test sonar:sonar'
                 }
             }
-        }*/
+        }
     }
 }
