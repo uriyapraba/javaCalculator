@@ -35,7 +35,7 @@ pipeline
                 {
                     sh "mvn clean test sonar:sonar \
                         -Dsonar.projectKey=sonar-maven \
-                        -Dsonar.host.url=http://3.104.54.83:9000 \
+                        -Dsonar.host.url=http://13.210.72.238:9000 \
                         -Dsonar.login=sqp_bb17797a98e7b975d83cf0bc0fab5e089c98116b"
                 }
             }
