@@ -9,7 +9,7 @@ public class JavaCalcJUnit {
 	@Test
 	public void addTest() {
 		JavaCalc mycalc = new JavaCalc();
-		assertEquals(5,mycalc.addNumbers(5,5));
+		assertEquals(10,mycalc.addNumbers(5,5));
 	}
 	
 	@Test
